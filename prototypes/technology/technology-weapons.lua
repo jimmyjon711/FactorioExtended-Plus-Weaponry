@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "turrets-2",
     icon = "__base__/graphics/technology/laser-turrets.png",
+    icon_size = 128,
     prerequisites = {"laser-turrets", "titanium-processing"},
     effects =
     {
@@ -43,6 +44,7 @@ data:extend(
     type = "technology",
     name = "iron-walls",
     icon = "__base__/graphics/technology/stone-walls.png",
+    icon_size = 128,
     prerequisites = {"stone-walls"},
     effects =
     {
@@ -72,6 +74,7 @@ data:extend(
     type = "technology",
     name = "steel-walls",
     icon = "__base__/graphics/technology/stone-walls.png",
+    icon_size = 128,
     prerequisites = {"iron-walls", "steel-processing"},
     effects =
     {
@@ -102,6 +105,7 @@ data:extend(
     type = "technology",
     name = "titanium-walls",
     icon = "__base__/graphics/technology/stone-walls.png",
+    icon_size = 128,
     prerequisites = {"steel-walls", "titanium-processing"},
     effects =
     {

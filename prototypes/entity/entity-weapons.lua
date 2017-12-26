@@ -1,3 +1,5 @@
+require ("circuit-connector-generated-definitions")
+
 function gun_turret_extension(inputs)
 return
 {
@@ -163,6 +165,7 @@ data:extend(
     type = "ammo-turret",
     name = "gun-turret-mk2",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/gun-turret.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "gun-turret-mk2"},
     max_health = 1600,
@@ -265,6 +268,7 @@ data:extend(
     type = "electric-turret",
     name = "laser-turret-mk2",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/laser-turret.png",
+    icon_size = 32,
     flags = { "placeable-player", "placeable-enemy", "player-creation"},
     minable = { mining_time = 0.5, result = "laser-turret-mk2" },
     max_health = 5000,
@@ -417,6 +421,7 @@ data:extend(
     type = "wall",
     name = "iron-wall",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-wall.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -747,14 +752,14 @@ data:extend(
         }
       }
     },
-	wall_diode_green = conditional_return(not data.is_demo,
+	  wall_diode_green = util.conditional_return(not data.is_demo,
         {
           filename = "__base__/graphics/entity/gate/wall-diode-green.png",
           width = 21,
           height = 22,
           shift = {0, -0.78125}
         }),
-    wall_diode_green_light = conditional_return(not data.is_demo,
+    wall_diode_green_light = util.conditional_return(not data.is_demo,
         {
           minimum_darkness = 0.3,
           color = {g=1},
@@ -762,14 +767,14 @@ data:extend(
           size = 1,
           intensity = 0.3
         }),
-    wall_diode_red = conditional_return(not data.is_demo,
+    wall_diode_red = util.conditional_return(not data.is_demo,
     {
       filename = "__base__/graphics/entity/gate/wall-diode-red.png",
       width = 21,
       height = 22,
       shift = {0, -0.78125}
     }),
-    wall_diode_red_light = conditional_return(not data.is_demo,
+    wall_diode_red_light = util.conditional_return(not data.is_demo,
     {
       minimum_darkness = 0.3,
       color = {r=1},
@@ -778,27 +783,17 @@ data:extend(
       intensity = 0.3
     }),
 
-    circuit_wire_connection_point =
-    {
-      shadow =
-      {
-        red = {0.890625, 0.828125},
-        green = {0.890625, 0.703125}
-      },
-      wire =
-      {
-        red = {-0.28125, -0.71875},
-        green = {-0.28125, -0.84375}
-      }
-    },
     circuit_wire_max_distance = 7.5,
-    circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
+    circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+    circuit_connector_sprites = circuit_connector_definitions["gate"].sprites,
+    
     default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   {
     type = "wall",
     name = "steel-wall",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-wall.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -1129,14 +1124,14 @@ data:extend(
         }
       }
     },
-	wall_diode_green = conditional_return(not data.is_demo,
+	wall_diode_green = util.conditional_return(not data.is_demo,
         {
           filename = "__base__/graphics/entity/gate/wall-diode-green.png",
           width = 21,
           height = 22,
           shift = {0, -0.78125}
         }),
-    wall_diode_green_light = conditional_return(not data.is_demo,
+    wall_diode_green_light = util.conditional_return(not data.is_demo,
         {
           minimum_darkness = 0.3,
           color = {g=1},
@@ -1144,14 +1139,14 @@ data:extend(
           size = 1,
           intensity = 0.3
         }),
-    wall_diode_red = conditional_return(not data.is_demo,
+    wall_diode_red = util.conditional_return(not data.is_demo,
     {
       filename = "__base__/graphics/entity/gate/wall-diode-red.png",
       width = 21,
       height = 22,
       shift = {0, -0.78125}
     }),
-    wall_diode_red_light = conditional_return(not data.is_demo,
+    wall_diode_red_light = util.conditional_return(not data.is_demo,
     {
       minimum_darkness = 0.3,
       color = {r=1},
@@ -1160,27 +1155,15 @@ data:extend(
       intensity = 0.3
     }),
 
-    circuit_wire_connection_point =
-    {
-      shadow =
-      {
-        red = {0.890625, 0.828125},
-        green = {0.890625, 0.703125}
-      },
-      wire =
-      {
-        red = {-0.28125, -0.71875},
-        green = {-0.28125, -0.84375}
-      }
-    },
-    circuit_wire_max_distance = 7.5,
-    circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
+    circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+    circuit_connector_sprites = circuit_connector_definitions["gate"].sprites,
     default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   {
     type = "wall",
     name = "titanium-wall",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-wall.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -1511,14 +1494,14 @@ data:extend(
         }
       }
     },
-	wall_diode_green = conditional_return(not data.is_demo,
+	wall_diode_green = util.conditional_return(not data.is_demo,
         {
           filename = "__base__/graphics/entity/gate/wall-diode-green.png",
           width = 21,
           height = 22,
           shift = {0, -0.78125}
         }),
-    wall_diode_green_light = conditional_return(not data.is_demo,
+    wall_diode_green_light = util.conditional_return(not data.is_demo,
         {
           minimum_darkness = 0.3,
           color = {g=1},
@@ -1526,14 +1509,14 @@ data:extend(
           size = 1,
           intensity = 0.3
         }),
-    wall_diode_red = conditional_return(not data.is_demo,
+    wall_diode_red = util.conditional_return(not data.is_demo,
     {
       filename = "__base__/graphics/entity/gate/wall-diode-red.png",
       width = 21,
       height = 22,
       shift = {0, -0.78125}
     }),
-    wall_diode_red_light = conditional_return(not data.is_demo,
+    wall_diode_red_light = util.conditional_return(not data.is_demo,
     {
       minimum_darkness = 0.3,
       color = {r=1},
@@ -1542,21 +1525,9 @@ data:extend(
       intensity = 0.3
     }),
 
-    circuit_wire_connection_point =
-    {
-      shadow =
-      {
-        red = {0.890625, 0.828125},
-        green = {0.890625, 0.703125}
-      },
-      wire =
-      {
-        red = {-0.28125, -0.71875},
-        green = {-0.28125, -0.84375}
-      }
-    },
+    circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+    circuit_connector_sprites = circuit_connector_definitions["gate"].sprites,
     circuit_wire_max_distance = 7.5,
-    circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
     default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   
@@ -1565,6 +1536,7 @@ data:extend(
     type = "gate",
     name = "iron-gate",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-gate.png",
+    icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
     minable = {hardness = 0.2, mining_time = 0.5, result = "iron-gate"},
@@ -1912,6 +1884,7 @@ data:extend(
     type = "gate",
     name = "steel-gate",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-gate.png",
+    icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
     minable = {hardness = 0.2, mining_time = 0.5, result = "steel-gate"},
@@ -2259,6 +2232,7 @@ data:extend(
     type = "gate",
     name = "titanium-gate",
     icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-gate.png",
+    icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-gate"},
