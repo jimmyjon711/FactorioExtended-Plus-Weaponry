@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "gun-turret-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/gun-turret.png",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/gun-turret.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
     order = "b-a",
@@ -15,7 +15,7 @@ data:extend(
   {
     type = "item",
     name = "laser-turret-mk2",
-    icon = "__FactorioExtended-Core__/graphics/icons/laser-turret.png",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/laser-turret.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
     order = "b-b",
@@ -27,7 +27,7 @@ data:extend(
   {
     type = "ammo",
     name = "shattering-bullet-magazine",
-    icon = "__FactorioExtended-Core__/graphics/icons/shattering-bullet-magazine.png",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/shattering-bullet-magazine.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
@@ -65,7 +65,7 @@ data:extend(
   {
     type = "ammo",
     name = "shattering-shotgun-shell",
-    icon = "__FactorioExtended-Core__/graphics/icons/shattering-shotgun-shell.png",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/shattering-shotgun-shell.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
@@ -100,22 +100,64 @@ data:extend(
   
   {
     type = "item",
-    name = "reinforced-stone-wall",
-    icon = "__FactorioExtended-Core__/graphics/icons/reinforced-stone-wall.png",
+    name = "iron-wall",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-wall.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
-    order = "d-a",
-    place_result = "reinforced-stone-wall",
+    order = "d-a-a",
+    place_result = "iron-wall",
     stack_size = 100
   },
   {
     type = "item",
-    name = "reinforced-gate",
-    icon = "__FactorioExtended-Core__/graphics/icons/reinforced-gate.png",
+    name = "steel-wall",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-wall.png",
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
-    order = "d-b",
-    place_result = "reinforced-gate",
+    order = "d-a-b",
+    place_result = "steel-wall",
+    stack_size = 100
+  },
+  {
+    type = "item",
+    name = "titanium-wall",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-wall.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "fb-weapons",
+    order = "d-a-c",
+    place_result = "titanium-wall",
+    stack_size = 100
+  },
+  
+  
+  {
+    type = "item",
+    name = "iron-gate",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-gate.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "fb-weapons",
+    order = "d-b-a",
+    place_result = "iron-gate",
+    stack_size = 100
+  },
+  {
+    type = "item",
+    name = "steel-gate",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-gate.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "fb-weapons",
+    order = "d-b-b",
+    place_result = "steel-gate",
+    stack_size = 100
+  },
+  {
+    type = "item",
+    name = "titanium-gate",
+    icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-gate.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "fb-weapons",
+    order = "d-b-c",
+    place_result = "titanium-gate",
     stack_size = 100
   }
 })

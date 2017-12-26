@@ -58,7 +58,7 @@ data:extend(
   
   {
     type = "recipe",
-    name = "reinforced-stone-wall",
+    name = "iron-wall",
     enabled = false,
     energy_required = 20,
     ingredients =
@@ -66,20 +66,71 @@ data:extend(
       {"stone-wall", 1},
       {"iron-plate", 2}
     },
-    result = "reinforced-stone-wall"
+    result = "iron-wall"
   },
   {
     type = "recipe",
-    name = "reinforced-gate",
+    name = "steel-wall",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    {
+      {"iron-wall", 1},
+      {"steel-plate", 2}
+    },
+    result = "steel-wall"
+  },
+  {
+    type = "recipe",
+    name = "titanium-wall",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    {
+      {"steel-wall", 1},
+      {"titanium-alloy", 2}
+    },
+    result = "titanium-wall"
+  },
+  
+  
+  {
+    type = "recipe",
+    name = "iron-gate",
     enabled = false,
     energy_required = 20,
     ingredients =
     {
       {"gate", 2},
-      {"iron-plate", 10},
-      {"advanced-circuit", 2},
+      {"iron-plate", 10}
 	  
     },
-    result = "reinforced-gate"
+    result = "iron-gate"
+  },
+  {
+    type = "recipe",
+    name = "steel-gate",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    {
+      {"iron-gate", 2},
+      {"steel-plate", 10}
+	  
+    },
+    result = "steel-gate"
+  },
+  {
+    type = "recipe",
+    name = "titanium-gate",
+    enabled = false,
+    energy_required = 20,
+    ingredients =
+    {
+      {"steel-gate", 2},
+      {"titanium-alloy", 10},
+	  
+    },
+    result = "titanium-gate"
   }
 })
