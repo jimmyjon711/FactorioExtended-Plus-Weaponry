@@ -54,7 +54,7 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 10 , type = "physical"}
+              damage = { amount = 48 , type = "physical"}
             }
           }
         }
@@ -83,7 +83,7 @@ data:extend(
       action =
       {
         type = "direct",
-        repeat_count = 24,
+        repeat_count = 20,
         action_delivery =
         {
           type = "projectile",

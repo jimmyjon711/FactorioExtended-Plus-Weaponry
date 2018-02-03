@@ -1,5 +1,3 @@
-require ("circuit-connector-generated-definitions")
-
 function gun_turret_extension(inputs)
 return
 {
@@ -35,7 +33,7 @@ end
 function gun_turret_extension_shadow(inputs)
 return
 {
-  filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-extension-shadow.png",
+  filename = "__base__/graphics/entity/gun-turret/gun-turret-gun-extension-shadow.png",
   width = 89,
   height = 49,
   direction_count = 4,
@@ -96,12 +94,12 @@ return
       stripes =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-shadow-1.png",
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-gun-shadow-1.png",
           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
           height_in_frames = 32,
         },
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-shadow-2.png",
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-gun-shadow-2.png",
           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
           height_in_frames = 32,
         }
@@ -130,7 +128,7 @@ end
 function laser_turret_extension_shadow(inputs)
 return
 {
-  filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-start-shadow.png",
+  filename = "__base__/graphics/entity/laser-turret/laser-turret-gun-start-shadow.png",
   width = 92,
   height = 50,
   frame_count = inputs.frame_count and inputs.frame_count or 15,
@@ -153,7 +151,7 @@ return
   line_length = inputs.line_length and inputs.line_length or 0,
   run_mode = inputs.run_mode and inputs.run_mode or "forward",
   axially_symmetrical = false,
-  apply_runtime_tint = true,
+  apply_runtime_tint = false,
   direction_count = 4,
   shift = {0.078125, -1.26563},
 }
@@ -168,7 +166,7 @@ data:extend(
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "gun-turret-mk2"},
-    max_health = 1600,
+    max_health = 800, --400
     corpse = "medium-remnants",
     collision_box = {{-0.7, -0.7 }, {0.7, 0.7}},
     selection_box = {{-1, -1 }, {1, 1}},
@@ -178,7 +176,7 @@ data:extend(
     dying_explosion = "medium-explosion",
     inventory_size = 2,
     automated_ammo_count = 10,
-    attacking_speed = 0.75,
+    attacking_speed = 1, --0.5
     folded_animation = 
     {
       layers =
@@ -244,7 +242,7 @@ data:extend(
       cooldown = 3,
       projectile_creation_distance = 1.39375,
       projectile_center = {0.0625, -0.0875}, -- same as gun_turret_attack shift
-      damage_modifier = 4,
+      damage_modifier = 2, --0
       shell_particle =
       {
         name = "shell-particle",
@@ -271,7 +269,7 @@ data:extend(
     icon_size = 32,
     flags = { "placeable-player", "placeable-enemy", "player-creation"},
     minable = { mining_time = 0.5, result = "laser-turret-mk2" },
-    max_health = 5000,
+    max_health = 2000,
     corpse = "medium-remnants",
     collision_box = {{ -0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{ -1, -1}, {1, 1}},
@@ -283,7 +281,7 @@ data:extend(
     {
       type = "electric",
       buffer_capacity = "1600kJ",
-      input_flow_limit = "4800kW",
+      input_flow_limit = "19400kW",
       drain = "32kW",
       usage_priority = "primary-input"
     },
@@ -332,7 +330,7 @@ data:extend(
           shift = {0.0625, -1.3125},
         },
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-shadow.png",
+          filename = "__base__/graphics/entity/laser-turret/laser-turret-gun-shadow.png",
           line_length = 8,
           width = 88,
           height = 52,
@@ -389,7 +387,7 @@ data:extend(
       cooldown = 10,
       projectile_center = {0, -0.2},
       projectile_creation_distance = 1.4,
-      range = 25,
+      range = 48,
       damage_modifier = 8,
       ammo_type =
       {
@@ -405,7 +403,7 @@ data:extend(
               {
                 type = "projectile",
                 projectile = "laser",
-                starting_speed = 0.28
+                starting_speed = 0.50
               }
             }
           }
@@ -427,7 +425,7 @@ data:extend(
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     minable = {mining_time = 0.5, result = "iron-wall"},
     fast_replaceable_group = "wall",
-    max_health = 600,
+    max_health = 700,
     repair_speed_modifier = 2,
     corpse = "wall-remnants",
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
@@ -783,10 +781,9 @@ data:extend(
       intensity = 0.3
     }),
 
-    circuit_wire_max_distance = 7.5,
     circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
     circuit_connector_sprites = circuit_connector_definitions["gate"].sprites,
-    
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   {
@@ -799,7 +796,7 @@ data:extend(
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     minable = {mining_time = 0.5, result = "steel-wall"},
     fast_replaceable_group = "wall",
-    max_health = 1200,
+    max_health = 1400,
     repair_speed_modifier = 2,
     corpse = "wall-remnants",
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
@@ -1157,6 +1154,7 @@ data:extend(
 
     circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
     circuit_connector_sprites = circuit_connector_definitions["gate"].sprites,
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   {
@@ -1169,7 +1167,7 @@ data:extend(
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     minable = {mining_time = 0.5, result = "titanium-wall"},
     fast_replaceable_group = "wall",
-    max_health = 1600,
+    max_health = 2800,
     repair_speed_modifier = 2,
     corpse = "wall-remnants",
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
@@ -1527,7 +1525,7 @@ data:extend(
 
     circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
     circuit_connector_sprites = circuit_connector_definitions["gate"].sprites,
-    circuit_wire_max_distance = 7.5,
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
   
@@ -1540,7 +1538,7 @@ data:extend(
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
     minable = {hardness = 0.2, mining_time = 0.5, result = "iron-gate"},
-    max_health = 800,
+    max_health = 700,
     corpse = "small-remnants",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -1888,7 +1886,7 @@ data:extend(
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
     minable = {hardness = 0.2, mining_time = 0.5, result = "steel-gate"},
-    max_health = 1200,
+    max_health = 1400,
     corpse = "small-remnants",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -2236,7 +2234,7 @@ data:extend(
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
     minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-gate"},
-    max_health = 1600,
+    max_health = 2800,
     corpse = "small-remnants",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},

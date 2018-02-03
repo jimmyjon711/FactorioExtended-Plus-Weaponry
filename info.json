@@ -1,11 +1,12 @@
 {
-    "name": "FactorioExtended-Weaponry",
-    "version": "0.3.0",
+  "name": "FactorioExtended-Weaponry",
+  "version": "0.3.2",
 	"factorio_version": "0.16",
-	"date": "2017-12-24",
-    "title": "FactorioExtended-Weaponry",
-    "author": "Nath Gamer",
+	"date": "2018-02-02",
+  "title": "FactorioExtended-Weaponry",
+  "author": "Nath Gamer",
+  "contributers": "jimmyjon711",
 	"homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
-    "description": "Extended Factorio",
-	"dependencies": ["base", "FactorioExtended-Core >= 0.3.0"]
+  "description": "When your in a jam, listen to the music of gun fire from us at Factorio Extended!",
+	"dependencies": ["base >= 0.16.20", "FactorioExtended-Core >= 0.3.2"]
 }

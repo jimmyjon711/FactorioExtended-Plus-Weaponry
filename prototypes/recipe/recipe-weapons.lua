@@ -7,7 +7,7 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-      {"gun-turret", 5},
+      {"gun-turret", 2},
       {"titanium-alloy", 10}
     },
     result = "gun-turret-mk2"
