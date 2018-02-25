@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "gun-turret-mk2",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/gun-turret.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/gun-turret.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
@@ -16,7 +16,7 @@ data:extend(
   {
     type = "item",
     name = "laser-turret-mk2",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/laser-turret.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/laser-turret.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
@@ -29,7 +29,7 @@ data:extend(
   {
     type = "ammo",
     name = "shattering-bullet-magazine",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/shattering-bullet-magazine.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/shattering-bullet-magazine.png",
     icon_size = 32,
     flags = {"goes-to-main-inventory"},
     ammo_type =
@@ -68,7 +68,7 @@ data:extend(
   {
     type = "ammo",
     name = "shattering-shotgun-shell",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/shattering-shotgun-shell.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/shattering-shotgun-shell.png",
     icon_size = 32,
     flags = {"goes-to-main-inventory"},
     ammo_type =
@@ -105,7 +105,7 @@ data:extend(
   {
     type = "item",
     name = "iron-wall",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-wall.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-wall.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
@@ -116,7 +116,7 @@ data:extend(
   {
     type = "item",
     name = "steel-wall",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-wall.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-wall.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
@@ -127,7 +127,7 @@ data:extend(
   {
     type = "item",
     name = "titanium-wall",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-wall.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-wall.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
@@ -140,7 +140,7 @@ data:extend(
   {
     type = "item",
     name = "iron-gate",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-gate.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-gate.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
@@ -151,7 +151,7 @@ data:extend(
   {
     type = "item",
     name = "steel-gate",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-gate.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-gate.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",
@@ -162,7 +162,7 @@ data:extend(
   {
     type = "item",
     name = "titanium-gate",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-gate.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-gate.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-weapons",

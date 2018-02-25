@@ -28,8 +28,6 @@ data:extend(
     },
     result = "laser-turret-mk2"
   },
-  
-  
   {
     type = "recipe",
     name = "shattering-bullet-magazine",
@@ -37,7 +35,7 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-	  {"copper-plate", 2},
+      {"copper-plate", 2},
       {"titanium-alloy", 2}
     },
     result = "shattering-bullet-magazine"
@@ -49,13 +47,11 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-	  {"copper-plate", 2},
+      {"copper-plate", 2},
       {"titanium-alloy", 2}
     },
     result = "shattering-shotgun-shell"
   },
-  
-  
   {
     type = "recipe",
     name = "iron-wall",
@@ -92,8 +88,6 @@ data:extend(
     },
     result = "titanium-wall"
   },
-  
-  
   {
     type = "recipe",
     name = "iron-gate",
@@ -103,7 +97,7 @@ data:extend(
     {
       {"gate", 2},
       {"iron-plate", 10}
-	  
+    
     },
     result = "iron-gate"
   },
@@ -116,7 +110,6 @@ data:extend(
     {
       {"iron-gate", 2},
       {"steel-plate", 10}
-	  
     },
     result = "steel-gate"
   },
@@ -129,7 +122,7 @@ data:extend(
     {
       {"steel-gate", 2},
       {"titanium-alloy", 10},
-	  
+    
     },
     result = "titanium-gate"
   }

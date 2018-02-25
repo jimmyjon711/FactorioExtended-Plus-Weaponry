@@ -1,7 +1,7 @@
 function gun_turret_extension(inputs)
 return
 {
-  filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-extension.png",
+  filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-extension.png",
   priority = "medium",
   width = 65,
   height = 63,
@@ -17,7 +17,7 @@ end
 function gun_turret_extension_mask(inputs)
 return
 {
-  filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-extension-mask.png",
+  filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-extension-mask.png",
   width = 24,
   height = 31,
   direction_count = 4,
@@ -61,19 +61,19 @@ return
       stripes =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-1.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-1.png",
           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
           height_in_frames = 32,
         },
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-2.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-2.png",
           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
           height_in_frames = 32,
         }
       }
     },
     {
-      filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-mask.png",
+      filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-mask.png",
       line_length = inputs.frame_count and inputs.frame_count or 2,
       width = 29,
       height = 27,
@@ -112,7 +112,7 @@ end
 function laser_turret_extension(inputs)
 return
 {
-  filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-start.png",
+  filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-start.png",
   priority = "medium",
   width = 66,
   height = 67,
@@ -144,7 +144,7 @@ end
 function laser_turret_extension_mask(inputs)
 return
 {
-  filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-start-mask.png",
+  filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-start-mask.png",
   width = 51,
   height = 47,
   frame_count = inputs.frame_count and inputs.frame_count or 15,
@@ -162,7 +162,7 @@ data:extend(
   {
     type = "ammo-turret",
     name = "gun-turret-mk2",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/gun-turret.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/gun-turret.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "gun-turret-mk2"},
@@ -211,7 +211,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-base.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-base.png",
           priority = "high",
           width = 90,
           height = 75,
@@ -221,7 +221,7 @@ data:extend(
           shift = {0.0625, -0.046875},
         },
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/gun-turret/gun-turret-base-mask.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-base-mask.png",
           line_length = 1,
           width = 52,
           height = 47,
@@ -265,7 +265,7 @@ data:extend(
   {
     type = "electric-turret",
     name = "laser-turret-mk2",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/laser-turret.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/laser-turret.png",
     icon_size = 32,
     flags = { "placeable-player", "placeable-enemy", "player-creation"},
     minable = { mining_time = 0.5, result = "laser-turret-mk2" },
@@ -308,7 +308,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-gun.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-gun.png",
           line_length = 8,
           width = 68,
           height = 68,
@@ -318,7 +318,7 @@ data:extend(
           shift = {0.0625, -1}
         },
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-mask.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-mask.png",
           line_length = 8,
           width = 54,
           height = 44,
@@ -357,7 +357,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-base.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-base.png",
           priority = "high",
           width = 98,
           height = 82,
@@ -367,7 +367,7 @@ data:extend(
           shift = { 0.109375, 0.03125 }
         },
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/laser-turret/laser-turret-base-mask.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-base-mask.png",
           line_length = 1,
           width = 54,
           height = 46,
@@ -418,7 +418,7 @@ data:extend(
   {
     type = "wall",
     name = "iron-wall",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-wall.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-wall.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -502,7 +502,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-single.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-single.png",
             priority = "extra-high",
             width = 22,
             height = 42,
@@ -524,7 +524,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-straight-vertical-1.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-straight-vertical-1.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -544,7 +544,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-straight-vertical-2.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-straight-vertical-2.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -564,7 +564,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-straight-vertical-3.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-straight-vertical-3.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -587,7 +587,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-straight-horizontal-1.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-straight-horizontal-1.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -607,7 +607,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-straight-horizontal-2.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-straight-horizontal-2.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -627,7 +627,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-straight-horizontal-3.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-straight-horizontal-3.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -649,7 +649,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-corner-right-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-corner-right-down.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -670,7 +670,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-corner-left-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-corner-left-down.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -691,7 +691,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-t-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-t-down.png",
             priority = "extra-high",
             width = 32,
             height = 42,
@@ -712,7 +712,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-ending-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-ending-right.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -733,7 +733,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-wall/wall-ending-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-ending-left.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -789,7 +789,7 @@ data:extend(
   {
     type = "wall",
     name = "steel-wall",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-wall.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-wall.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -873,7 +873,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-single.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-single.png",
             priority = "extra-high",
             width = 22,
             height = 42,
@@ -895,7 +895,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-straight-vertical-1.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-straight-vertical-1.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -915,7 +915,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-straight-vertical-2.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-straight-vertical-2.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -935,7 +935,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-straight-vertical-3.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-straight-vertical-3.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -958,7 +958,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-straight-horizontal-1.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-straight-horizontal-1.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -978,7 +978,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-straight-horizontal-2.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-straight-horizontal-2.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -998,7 +998,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-straight-horizontal-3.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-straight-horizontal-3.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -1020,7 +1020,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-corner-right-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-corner-right-down.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1041,7 +1041,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-corner-left-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-corner-left-down.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1062,7 +1062,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-t-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-t-down.png",
             priority = "extra-high",
             width = 32,
             height = 42,
@@ -1083,7 +1083,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-ending-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-ending-right.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1104,7 +1104,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-wall/wall-ending-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-ending-left.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1160,7 +1160,7 @@ data:extend(
   {
     type = "wall",
     name = "titanium-wall",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-wall.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-wall.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -1244,7 +1244,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-single.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-single.png",
             priority = "extra-high",
             width = 22,
             height = 42,
@@ -1266,7 +1266,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-straight-vertical-1.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-straight-vertical-1.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -1286,7 +1286,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-straight-vertical-2.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-straight-vertical-2.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -1306,7 +1306,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-straight-vertical-3.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-straight-vertical-3.png",
               priority = "extra-high",
               width = 22,
               height = 42,
@@ -1329,7 +1329,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-straight-horizontal-1.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-straight-horizontal-1.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -1349,7 +1349,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-straight-horizontal-2.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-straight-horizontal-2.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -1369,7 +1369,7 @@ data:extend(
           layers =
           {
             {
-              filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-straight-horizontal-3.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-straight-horizontal-3.png",
               priority = "extra-high",
               width = 32,
               height = 42,
@@ -1391,7 +1391,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-corner-right-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-corner-right-down.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1412,7 +1412,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-corner-left-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-corner-left-down.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1433,7 +1433,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-t-down.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-t-down.png",
             priority = "extra-high",
             width = 32,
             height = 42,
@@ -1454,7 +1454,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-ending-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-ending-right.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1475,7 +1475,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-wall/wall-ending-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-ending-left.png",
             priority = "extra-high",
             width = 27,
             height = 42,
@@ -1533,7 +1533,7 @@ data:extend(
   {
     type = "gate",
     name = "iron-gate",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/iron-gate.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-gate.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
@@ -1576,7 +1576,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/gate-vertical.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-vertical.png",
           line_length = 8,
           width = 21,
           height = 60,
@@ -1599,7 +1599,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/gate-horizontal.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-horizontal.png",
           line_length = 8,
           width = 32,
           height = 36,
@@ -1639,7 +1639,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/gate-rail-horizontal-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-horizontal-left.png",
           line_length = 8,
           width = 32,
           height = 47,
@@ -1662,7 +1662,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/gate-rail-horizontal-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-horizontal-right.png",
           line_length = 8,
           width = 32,
           height = 43,
@@ -1685,7 +1685,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/gate-rail-vertical-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-vertical-left.png",
           line_length = 8,
           width = 22,
           height = 54,
@@ -1708,7 +1708,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/gate-rail-vertical-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-vertical-right.png",
           line_length = 8,
           width = 22,
           height = 55,
@@ -1786,7 +1786,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/wall-patch-north.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/wall-patch-north.png",
             width = 22,
             height = 35,
             shift = {0, -0.62 + 1}
@@ -1805,7 +1805,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/wall-patch-east.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/wall-patch-east.png",
             width = 11,
             height = 40,
             shift = {0.328125 - 1, -0.109375}
@@ -1824,7 +1824,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/wall-patch-south.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/wall-patch-south.png",
             width = 22,
             height = 40,
             shift = {0, -0.125}
@@ -1843,7 +1843,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/iron-gate/wall-patch-west.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/wall-patch-west.png",
             width = 11,
             height = 40,
             shift = {-0.328125 + 1, -0.109375}
@@ -1881,7 +1881,7 @@ data:extend(
   {
     type = "gate",
     name = "steel-gate",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/steel-gate.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-gate.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
@@ -1924,7 +1924,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/gate-vertical.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-vertical.png",
           line_length = 8,
           width = 21,
           height = 60,
@@ -1947,7 +1947,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/gate-horizontal.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-horizontal.png",
           line_length = 8,
           width = 32,
           height = 36,
@@ -1987,7 +1987,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/gate-rail-horizontal-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-horizontal-left.png",
           line_length = 8,
           width = 32,
           height = 47,
@@ -2010,7 +2010,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/gate-rail-horizontal-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-horizontal-right.png",
           line_length = 8,
           width = 32,
           height = 43,
@@ -2033,7 +2033,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/gate-rail-vertical-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-vertical-left.png",
           line_length = 8,
           width = 22,
           height = 54,
@@ -2056,7 +2056,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/gate-rail-vertical-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-vertical-right.png",
           line_length = 8,
           width = 22,
           height = 55,
@@ -2134,7 +2134,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/wall-patch-north.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/wall-patch-north.png",
             width = 22,
             height = 35,
             shift = {0, -0.62 + 1}
@@ -2153,7 +2153,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/wall-patch-east.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/wall-patch-east.png",
             width = 11,
             height = 40,
             shift = {0.328125 - 1, -0.109375}
@@ -2172,7 +2172,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/wall-patch-south.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/wall-patch-south.png",
             width = 22,
             height = 40,
             shift = {0, -0.125}
@@ -2191,7 +2191,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/steel-gate/wall-patch-west.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/wall-patch-west.png",
             width = 11,
             height = 40,
             shift = {-0.328125 + 1, -0.109375}
@@ -2229,7 +2229,7 @@ data:extend(
   {
     type = "gate",
     name = "titanium-gate",
-    icon = "__FactorioExtended-Weaponry__/graphics/icons/titanium-gate.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-gate.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
@@ -2272,7 +2272,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/gate-vertical.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-vertical.png",
           line_length = 8,
           width = 21,
           height = 60,
@@ -2295,7 +2295,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/gate-horizontal.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-horizontal.png",
           line_length = 8,
           width = 32,
           height = 36,
@@ -2335,7 +2335,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/gate-rail-horizontal-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-horizontal-left.png",
           line_length = 8,
           width = 32,
           height = 47,
@@ -2358,7 +2358,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/gate-rail-horizontal-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-horizontal-right.png",
           line_length = 8,
           width = 32,
           height = 43,
@@ -2381,7 +2381,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/gate-rail-vertical-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-vertical-left.png",
           line_length = 8,
           width = 22,
           height = 54,
@@ -2404,7 +2404,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/gate-rail-vertical-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-vertical-right.png",
           line_length = 8,
           width = 22,
           height = 55,
@@ -2482,7 +2482,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/wall-patch-north.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/wall-patch-north.png",
             width = 22,
             height = 35,
             shift = {0, -0.62 + 1}
@@ -2501,7 +2501,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/wall-patch-east.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/wall-patch-east.png",
             width = 11,
             height = 40,
             shift = {0.328125 - 1, -0.109375}
@@ -2520,7 +2520,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/wall-patch-south.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/wall-patch-south.png",
             width = 22,
             height = 40,
             shift = {0, -0.125}
@@ -2539,7 +2539,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__FactorioExtended-Weaponry__/graphics/entity/titanium-gate/wall-patch-west.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/wall-patch-west.png",
             width = 11,
             height = 40,
             shift = {-0.328125 + 1, -0.109375}

@@ -8,19 +8,15 @@ data:extend(
     prerequisites = {"laser-turrets", "titanium-processing"},
     effects =
     {
-	  {
+      {
         type = "unlock-recipe",
         recipe = "gun-turret-mk2"
       },
       {
         type = "unlock-recipe",
-        recipe = "laser-turret-mk2"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "shattering-bullet-magazine"
       },
-	  {
+      {
         type = "unlock-recipe",
         recipe = "shattering-shotgun-shell"
       }
@@ -38,7 +34,33 @@ data:extend(
     },
     order = "a-j-c-a"
   },
-  
+  {
+    type = "technology",
+    name = "laser-turrets-2",
+    icon_size = 128,
+    icon = "__base__/graphics/technology/laser-turrets.png",
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "laser-turret-mk2"
+      }
+    },
+    prerequisites = {"laser-turrets", "titanium-processing", "advanced-electronics-2", "battery-equipment"},
+    unit =
+    {
+      count = 400,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1},
+        {"military-science-pack", 1}
+      },
+      time = 30
+    },
+    order = "a-j-c"
+  },
   
   {
     type = "technology",
@@ -48,11 +70,11 @@ data:extend(
     prerequisites = {"stone-walls"},
     effects =
     {
-	  {
+      {
         type = "unlock-recipe",
         recipe = "iron-wall"
       },
-	  {
+      {
         type = "unlock-recipe",
         recipe = "iron-gate"
       }
@@ -78,11 +100,11 @@ data:extend(
     prerequisites = {"iron-walls", "steel-processing"},
     effects =
     {
-	  {
+      {
         type = "unlock-recipe",
         recipe = "steel-wall"
       },
-	  {
+      {
         type = "unlock-recipe",
         recipe = "steel-gate"
       }
@@ -92,7 +114,7 @@ data:extend(
       count = 100,
       ingredients =
       {
-        {"science-pack-1", 2},
+        {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
         {"military-science-pack", 1}
@@ -109,11 +131,11 @@ data:extend(
     prerequisites = {"steel-walls", "titanium-processing"},
     effects =
     {
-	  {
+      {
         type = "unlock-recipe",
         recipe = "titanium-wall"
       },
-	  {
+      {
         type = "unlock-recipe",
         recipe = "titanium-gate"
       }
@@ -123,8 +145,8 @@ data:extend(
       count = 100,
       ingredients =
       {
-        {"science-pack-1", 2},
-        {"science-pack-2", 2},
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
         {"science-pack-3", 1},
         {"military-science-pack", 1}
       },
