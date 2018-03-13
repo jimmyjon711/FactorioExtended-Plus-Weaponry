@@ -54,16 +54,16 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 48 , type = "physical"}
+              damage = { amount = 16, type = "physical"}
             }
           }
         }
       }
     },
-    magazine_size = 20,
+    magazine_size = 10,
     subgroup = "fb-weapons",
     order = "c-a",
-    stack_size = 100
+    stack_size = 200
   },
   {
     type = "ammo",
@@ -95,7 +95,7 @@ data:extend(
         }
       }
     },
-    magazine_size = 20,
+    magazine_size = 10,
     subgroup = "fb-weapons",
     order = "c-b",
     stack_size = 100

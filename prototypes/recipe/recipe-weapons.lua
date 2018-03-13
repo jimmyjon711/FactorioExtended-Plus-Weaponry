@@ -32,11 +32,12 @@ data:extend(
     type = "recipe",
     name = "shattering-bullet-magazine",
     enabled = false,
-    energy_required = 3,
+    energy_required = 5,
     ingredients =
     {
       {"copper-plate", 2},
-      {"titanium-alloy", 2}
+      {"titanium-alloy", 2},
+      {"piercing-rounds-magazine", 1}
     },
     result = "shattering-bullet-magazine"
   },
