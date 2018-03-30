@@ -61,13 +61,12 @@ data:extend(
     },
     order = "a-j-c"
   },
-  
   {
     type = "technology",
     name = "iron-walls",
     icon = "__base__/graphics/technology/stone-walls.png",
     icon_size = 128,
-    prerequisites = {"stone-walls"},
+    prerequisites = {"stone-walls", "gates"},
     effects =
     {
       {
@@ -111,7 +110,7 @@ data:extend(
     },
     unit =
     {
-      count = 100,
+      count = 200,
       ingredients =
       {
         {"science-pack-1", 1},
@@ -142,13 +141,14 @@ data:extend(
     },
     unit =
     {
-      count = 100,
+      count = 300,
       ingredients =
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"military-science-pack", 1}
+        {"military-science-pack", 1},
+        {"production-science-pack", 1}
       },
       time = 45
     },
