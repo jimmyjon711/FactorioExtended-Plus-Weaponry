@@ -174,6 +174,7 @@ data:extend(
     preparing_speed = 0.08,
     folding_speed = 0.08,
     dying_explosion = "medium-explosion",
+    fast_replaceable_group = "turret",
     inventory_size = 2,
     automated_ammo_count = 10,
     attacking_speed = 1, --0.5
@@ -276,6 +277,7 @@ data:extend(
     rotation_speed = 0.01,
     preparing_speed = 0.05,
     dying_explosion = "medium-explosion",
+    fast_replaceable_group = "turret",
     folding_speed = 0.05,
     energy_source =
     {
