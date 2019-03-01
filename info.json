@@ -1,11 +1,11 @@
 {
   "name": "FactorioExtended-Plus-Weaponry",
-  "version": "0.1.5",
-  "factorio_version": "0.16",
-  "date": "2018-08-25",
+  "version": "0.1.6",
+  "factorio_version": "0.17",
+  "date": "2019-03-01",
   "title": "FactorioExtended Plus-Weaponry",
   "author": "jimmyjon711 (Original Author: Nath Gamer)",
   "homepage": "",
   "description": "",
-  "dependencies": ["base >= 0.16.20", "FactorioExtended-Plus-Core >= 0.1.2"]
+  "dependencies": ["base >= 0.17.00", "FactorioExtended-Plus-Core >= 0.1.5"]
 }
