@@ -18,3 +18,8 @@ Version: 0.2.0
 Date: 03. 01. 2019
   Changes :
     - Updating to work with 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 03. 03. 2019
+  Changes :
+    - Updating graphics and properties
