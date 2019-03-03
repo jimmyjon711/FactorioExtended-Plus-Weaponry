@@ -678,7 +678,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-single.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-single.png",
             priority = "extra-high",
             width = 32,
             height = 46,
@@ -687,7 +687,7 @@ data:extend(
             shift = util.by_pixel(0, -6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-single.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-single.png",
               priority = "extra-high",
               width = 64,
               height = 86,
@@ -724,7 +724,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-vertical.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-vertical.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -733,7 +733,7 @@ data:extend(
             shift = util.by_pixel(0, 8),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-vertical.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-vertical.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -770,7 +770,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-horizontal.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-horizontal.png",
             priority = "extra-high",
             width = 32,
             height = 50,
@@ -779,7 +779,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-horizontal.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-horizontal.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -816,7 +816,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-corner-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-corner-right.png",
             priority = "extra-high",
             width = 32,
             height = 64,
@@ -825,7 +825,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-corner-right.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-corner-right.png",
               priority = "extra-high",
               width = 64,
               height = 128,
@@ -862,7 +862,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-corner-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-corner-left.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -871,7 +871,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-corner-left.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-corner-left.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -908,7 +908,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-t.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-t.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -917,7 +917,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-t.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-t.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -954,7 +954,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-ending-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-ending-right.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -963,7 +963,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-ending-right.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-ending-right.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -1000,7 +1000,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-ending-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-ending-left.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -1009,7 +1009,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-ending-left.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-ending-left.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -1043,7 +1043,7 @@ data:extend(
       },
       filling =
       {
-        filename = "__base__/graphics/entity/wall/wall-filling.png",
+        filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-filling.png",
           priority = "extra-high",
           width = 24,
           height = 30,
@@ -1052,7 +1052,7 @@ data:extend(
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__base__/graphics/entity/wall/hr-wall-filling.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-filling.png",
             priority = "extra-high",
             width = 48,
             height = 56,
@@ -1067,14 +1067,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-patch.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-patch.png",
             priority = "extra-high",
             width = 58,
             height = 64,
             shift = util.by_pixel(0, -2),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-patch.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-patch.png",
               priority = "extra-high",
               width = 116,
               height = 128,
@@ -1107,14 +1107,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-gate.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/wall-gate.png",
             priority = "extra-high",
             width = 42,
             height = 56,
             shift = util.by_pixel(0, -8),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-gate.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-wall/hr-wall-gate.png",
               priority = "extra-high",
               width = 82,
               height = 108,
@@ -1143,6 +1143,28 @@ data:extend(
         }
       }
     },
+    wall_diode_green = util.conditional_return(not data.is_demo,
+    {
+      sheet =
+      {
+        filename = "__base__/graphics/entity/wall/wall-diode-green.png",
+        priority = "extra-high",
+        width = 38,
+        height = 24,
+        --frames = 4, -- this is optional, it will default to 4 for Sprite4Way
+        shift = util.by_pixel(-2, -24),
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/wall/hr-wall-diode-green.png",
+          priority = "extra-high",
+          width = 72,
+          height = 44,
+          --frames = 4,
+          shift = util.by_pixel(-1, -23),
+          scale = 0.5
+        }
+      }
+    }),
     wall_diode_green_light_top = util.conditional_return(not data.is_demo,
     {
       minimum_darkness = 0.3,
@@ -1323,7 +1345,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-single.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-single.png",
             priority = "extra-high",
             width = 32,
             height = 46,
@@ -1332,7 +1354,7 @@ data:extend(
             shift = util.by_pixel(0, -6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-single.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-single.png",
               priority = "extra-high",
               width = 64,
               height = 86,
@@ -1369,7 +1391,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-vertical.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-vertical.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -1378,7 +1400,7 @@ data:extend(
             shift = util.by_pixel(0, 8),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-vertical.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-vertical.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -1415,7 +1437,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-horizontal.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-horizontal.png",
             priority = "extra-high",
             width = 32,
             height = 50,
@@ -1424,7 +1446,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-horizontal.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-horizontal.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -1461,7 +1483,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-corner-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-corner-right.png",
             priority = "extra-high",
             width = 32,
             height = 64,
@@ -1470,7 +1492,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-corner-right.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-corner-right.png",
               priority = "extra-high",
               width = 64,
               height = 128,
@@ -1507,7 +1529,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-corner-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-corner-left.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -1516,7 +1538,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-corner-left.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-corner-left.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -1553,7 +1575,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-t.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-t.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -1562,7 +1584,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-t.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-t.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -1599,7 +1621,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-ending-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-ending-right.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -1608,7 +1630,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-ending-right.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-ending-right.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -1645,7 +1667,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-ending-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-ending-left.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -1654,7 +1676,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-ending-left.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-ending-left.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -1688,7 +1710,7 @@ data:extend(
       },
       filling =
       {
-        filename = "__base__/graphics/entity/wall/wall-filling.png",
+        filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-filling.png",
           priority = "extra-high",
           width = 24,
           height = 30,
@@ -1697,7 +1719,7 @@ data:extend(
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__base__/graphics/entity/wall/hr-wall-filling.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-filling.png",
             priority = "extra-high",
             width = 48,
             height = 56,
@@ -1712,14 +1734,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-patch.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-patch.png",
             priority = "extra-high",
             width = 58,
             height = 64,
             shift = util.by_pixel(0, -2),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-patch.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-patch.png",
               priority = "extra-high",
               width = 116,
               height = 128,
@@ -1752,14 +1774,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-gate.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/wall-gate.png",
             priority = "extra-high",
             width = 42,
             height = 56,
             shift = util.by_pixel(0, -8),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-gate.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-wall/hr-wall-gate.png",
               priority = "extra-high",
               width = 82,
               height = 108,
@@ -1788,6 +1810,28 @@ data:extend(
         }
       }
     },
+    wall_diode_green = util.conditional_return(not data.is_demo,
+    {
+      sheet =
+      {
+        filename = "__base__/graphics/entity/wall/wall-diode-green.png",
+        priority = "extra-high",
+        width = 38,
+        height = 24,
+        --frames = 4, -- this is optional, it will default to 4 for Sprite4Way
+        shift = util.by_pixel(-2, -24),
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/wall/hr-wall-diode-green.png",
+          priority = "extra-high",
+          width = 72,
+          height = 44,
+          --frames = 4,
+          shift = util.by_pixel(-1, -23),
+          scale = 0.5
+        }
+      }
+    }),
     wall_diode_green_light_top = util.conditional_return(not data.is_demo,
     {
       minimum_darkness = 0.3,
@@ -1968,7 +2012,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-single.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-single.png",
             priority = "extra-high",
             width = 32,
             height = 46,
@@ -1977,7 +2021,7 @@ data:extend(
             shift = util.by_pixel(0, -6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-single.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-single.png",
               priority = "extra-high",
               width = 64,
               height = 86,
@@ -2014,7 +2058,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-vertical.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-vertical.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -2023,7 +2067,7 @@ data:extend(
             shift = util.by_pixel(0, 8),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-vertical.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-vertical.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -2060,7 +2104,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-horizontal.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-horizontal.png",
             priority = "extra-high",
             width = 32,
             height = 50,
@@ -2069,7 +2113,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-horizontal.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-horizontal.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -2106,7 +2150,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-corner-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-corner-right.png",
             priority = "extra-high",
             width = 32,
             height = 64,
@@ -2115,7 +2159,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-corner-right.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-corner-right.png",
               priority = "extra-high",
               width = 64,
               height = 128,
@@ -2152,7 +2196,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-corner-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-corner-left.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -2161,7 +2205,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-corner-left.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-corner-left.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -2198,7 +2242,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-t.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-t.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -2207,7 +2251,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-t.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-t.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -2244,7 +2288,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-ending-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-ending-right.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -2253,7 +2297,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-ending-right.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-ending-right.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -2290,7 +2334,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-ending-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-ending-left.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -2299,7 +2343,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-ending-left.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-ending-left.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -2333,7 +2377,7 @@ data:extend(
       },
       filling =
       {
-        filename = "__base__/graphics/entity/wall/wall-filling.png",
+        filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-filling.png",
           priority = "extra-high",
           width = 24,
           height = 30,
@@ -2342,7 +2386,7 @@ data:extend(
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__base__/graphics/entity/wall/hr-wall-filling.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-filling.png",
             priority = "extra-high",
             width = 48,
             height = 56,
@@ -2357,14 +2401,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-patch.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-patch.png",
             priority = "extra-high",
             width = 58,
             height = 64,
             shift = util.by_pixel(0, -2),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-patch.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-patch.png",
               priority = "extra-high",
               width = 116,
               height = 128,
@@ -2397,14 +2441,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__base__/graphics/entity/wall/wall-gate.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/wall-gate.png",
             priority = "extra-high",
             width = 42,
             height = 56,
             shift = util.by_pixel(0, -8),
             hr_version =
             {
-              filename = "__base__/graphics/entity/wall/hr-wall-gate.png",
+              filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-wall/hr-wall-gate.png",
               priority = "extra-high",
               width = 82,
               height = 108,
@@ -2433,6 +2477,28 @@ data:extend(
         }
       }
     },
+    wall_diode_green = util.conditional_return(not data.is_demo,
+    {
+      sheet =
+      {
+        filename = "__base__/graphics/entity/wall/wall-diode-green.png",
+        priority = "extra-high",
+        width = 38,
+        height = 24,
+        --frames = 4, -- this is optional, it will default to 4 for Sprite4Way
+        shift = util.by_pixel(-2, -24),
+        hr_version =
+        {
+          filename = "__base__/graphics/entity/wall/hr-wall-diode-green.png",
+          priority = "extra-high",
+          width = 72,
+          height = 44,
+          --frames = 4,
+          shift = util.by_pixel(-1, -23),
+          scale = 0.5
+        }
+      }
+    }),
     wall_diode_green_light_top = util.conditional_return(not data.is_demo,
     {
       minimum_darkness = 0.3,
@@ -2535,14 +2601,15 @@ data:extend(
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
-    minable = {hardness = 0.2, mining_time = 0.5, result = "iron-gate"},
+    minable = {mining_time = 0.2, result = "iron-gate"},
     max_health = 700,
     corpse = "small-remnants",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    opening_speed = 0.08,
+    opening_speed = 0.0666666,
     activation_distance = 3,
     timeout_to_close = 5,
+    fadeout_interval = 15,
     resistances =
     {
       {
@@ -2574,7 +2641,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-vertical.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-vertical.png",
           line_length = 8,
           width = 38,
           height = 62,
@@ -2582,7 +2649,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-vertical.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-vertical.png",
             line_length = 8,
             width = 78,
             height = 120,
@@ -2618,7 +2685,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-horizontal.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-horizontal.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -2626,7 +2693,7 @@ data:extend(
           shift = util.by_pixel(0, -4),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-horizontal.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-horizontal.png",
             line_length = 8,
             width = 66,
             height = 90,
@@ -2662,7 +2729,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-horizontal-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-horizontal-left.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -2670,7 +2737,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-horizontal-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-rail-horizontal-left.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -2706,7 +2773,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-horizontal-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-horizontal-right.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -2714,7 +2781,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-horizontal-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-rail-horizontal-right.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -2750,7 +2817,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-vertical-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-vertical-left.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -2758,7 +2825,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-vertical-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-rail-vertical-left.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -2794,7 +2861,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-vertical-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-vertical-right.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -2802,7 +2869,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-vertical-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-rail-vertical-right.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -2835,7 +2902,7 @@ data:extend(
     },
     vertical_rail_base =
     {
-      filename = "__base__/graphics/entity/gate/gate-rail-base-vertical.png",
+      filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-rail-base-vertical.png",
       line_length = 8,
       width = 68,
       height = 66,
@@ -2843,7 +2910,7 @@ data:extend(
       shift = util.by_pixel(0, 0),
       hr_version =
       {
-        filename = "__base__/graphics/entity/gate/hr-gate-rail-base-vertical.png",
+        filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-rail-base-vertical.png",
         line_length = 8,
         width = 138,
         height = 130,
@@ -2876,7 +2943,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-wall-patch.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/gate-wall-patch.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -2884,7 +2951,7 @@ data:extend(
           shift = util.by_pixel(0, 12),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-wall-patch.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/iron-gate/hr-gate-wall-patch.png",
             line_length = 8,
             width = 70,
             height = 94,
@@ -2942,14 +3009,15 @@ data:extend(
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
-    minable = {hardness = 0.2, mining_time = 0.5, result = "steel-gate"},
+    minable = { mining_time = 0.3, result = "steel-gate"},
     max_health = 1400,
     corpse = "small-remnants",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    opening_speed = 0.08,
+    opening_speed = 0.0666666,
     activation_distance = 3,
     timeout_to_close = 5,
+    fadeout_interval = 15,
     resistances =
     {
       {
@@ -2981,7 +3049,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-vertical.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-vertical.png",
           line_length = 8,
           width = 38,
           height = 62,
@@ -2989,7 +3057,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-vertical.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-vertical.png",
             line_length = 8,
             width = 78,
             height = 120,
@@ -3025,7 +3093,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-horizontal.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-horizontal.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -3033,7 +3101,7 @@ data:extend(
           shift = util.by_pixel(0, -4),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-horizontal.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-horizontal.png",
             line_length = 8,
             width = 66,
             height = 90,
@@ -3069,7 +3137,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-horizontal-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-horizontal-left.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -3077,7 +3145,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-horizontal-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-rail-horizontal-left.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -3113,7 +3181,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-horizontal-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-horizontal-right.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -3121,7 +3189,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-horizontal-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-rail-horizontal-right.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -3157,7 +3225,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-vertical-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-vertical-left.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -3165,7 +3233,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-vertical-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-rail-vertical-left.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -3201,7 +3269,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-vertical-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-vertical-right.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -3209,7 +3277,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-vertical-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-rail-vertical-right.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -3242,7 +3310,7 @@ data:extend(
     },
     vertical_rail_base =
     {
-      filename = "__base__/graphics/entity/gate/gate-rail-base-vertical.png",
+      filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-rail-base-vertical.png",
       line_length = 8,
       width = 68,
       height = 66,
@@ -3250,7 +3318,7 @@ data:extend(
       shift = util.by_pixel(0, 0),
       hr_version =
       {
-        filename = "__base__/graphics/entity/gate/hr-gate-rail-base-vertical.png",
+        filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-rail-base-vertical.png",
         line_length = 8,
         width = 138,
         height = 130,
@@ -3283,7 +3351,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-wall-patch.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/gate-wall-patch.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -3291,7 +3359,7 @@ data:extend(
           shift = util.by_pixel(0, 12),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-wall-patch.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/steel-gate/hr-gate-wall-patch.png",
             line_length = 8,
             width = 70,
             height = 94,
@@ -3349,14 +3417,15 @@ data:extend(
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     fast_replaceable_group = "wall",
-    minable = {hardness = 0.2, mining_time = 0.5, result = "titanium-gate"},
+    minable = { mining_time = 0.4, result = "titanium-gate"},
     max_health = 2800,
     corpse = "small-remnants",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    opening_speed = 0.08,
+    opening_speed = 0.0666666,
     activation_distance = 3,
     timeout_to_close = 5,
+    fadeout_interval = 15,
     resistances =
     {
       {
@@ -3388,7 +3457,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-vertical.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-vertical.png",
           line_length = 8,
           width = 38,
           height = 62,
@@ -3396,7 +3465,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-vertical.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-vertical.png",
             line_length = 8,
             width = 78,
             height = 120,
@@ -3432,7 +3501,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-horizontal.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-horizontal.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -3440,7 +3509,7 @@ data:extend(
           shift = util.by_pixel(0, -4),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-horizontal.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-horizontal.png",
             line_length = 8,
             width = 66,
             height = 90,
@@ -3476,7 +3545,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-horizontal-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-horizontal-left.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -3484,7 +3553,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-horizontal-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-rail-horizontal-left.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -3520,7 +3589,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-horizontal-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-horizontal-right.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -3528,7 +3597,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-horizontal-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-rail-horizontal-right.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -3564,7 +3633,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-vertical-left.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-vertical-left.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -3572,7 +3641,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-vertical-left.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-rail-vertical-left.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -3608,7 +3677,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-rail-vertical-right.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-vertical-right.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -3616,7 +3685,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-rail-vertical-right.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-rail-vertical-right.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -3649,7 +3718,7 @@ data:extend(
     },
     vertical_rail_base =
     {
-      filename = "__base__/graphics/entity/gate/gate-rail-base-vertical.png",
+      filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-rail-base-vertical.png",
       line_length = 8,
       width = 68,
       height = 66,
@@ -3657,7 +3726,7 @@ data:extend(
       shift = util.by_pixel(0, 0),
       hr_version =
       {
-        filename = "__base__/graphics/entity/gate/hr-gate-rail-base-vertical.png",
+        filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-rail-base-vertical.png",
         line_length = 8,
         width = 138,
         height = 130,
@@ -3690,7 +3759,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/gate/gate-wall-patch.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/gate-wall-patch.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -3698,7 +3767,7 @@ data:extend(
           shift = util.by_pixel(0, 12),
           hr_version =
           {
-            filename = "__base__/graphics/entity/gate/hr-gate-wall-patch.png",
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/titanium-gate/hr-gate-wall-patch.png",
             line_length = 8,
             width = 70,
             height = 94,
