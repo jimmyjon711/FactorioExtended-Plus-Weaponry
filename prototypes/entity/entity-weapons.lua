@@ -1,168 +1,302 @@
--- function gun_turret_extension(inputs)
--- return
--- {
---   filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-extension.png",
---   priority = "medium",
---   width = 65,
---   height = 63,
---   direction_count = 4,
---   frame_count = inputs.frame_count and inputs.frame_count or 5,
---   line_length = inputs.line_length and inputs.line_length or 0,
---   run_mode = inputs.run_mode and inputs.run_mode or "forward",
---   shift = {0.078125, -0.859375},
---   axially_symmetrical = false
--- }
--- end
+function gun_turret_mk2_extension(inputs)
+return
+{
+  filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/gun-turret-raising-mk2.png",
+  priority = "medium",
+  width = 66,
+  height = 64,
+  direction_count = 4,
+  frame_count = inputs.frame_count or 5,
+  line_length = inputs.line_length or 0,
+  run_mode = inputs.run_mode or "forward",
+  shift = util.by_pixel(0, -26),
+  axially_symmetrical = false,
+  hr_version =
+  {
+    filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/hr-gun-turret-raising-mk2.png",
+    priority = "medium",
+    width = 130,
+    height = 126,
+    direction_count = 4,
+    frame_count = inputs.frame_count or 5,
+    line_length = inputs.line_length or 0,
+    run_mode = inputs.run_mode or "forward",
+    shift = util.by_pixel(0, -26.5),
+    axially_symmetrical = false,
+    scale = 0.5
+  }
+}
+end
 
--- function gun_turret_extension_mask(inputs)
--- return
--- {
---   filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-extension-mask.png",
---   width = 24,
---   height = 31,
---   direction_count = 4,
---   frame_count = inputs.frame_count and inputs.frame_count or 5,
---   line_length = inputs.line_length and inputs.line_length or 0,
---   run_mode = inputs.run_mode and inputs.run_mode or "forward",
---   shift = {0.0625, -0.890625},
---   axially_symmetrical = false,
---   apply_runtime_tint = true
--- }
--- end
+function gun_turret_mk2_attack(inputs)
+return
+{
+  layers =
+  {
+    {
+      width = 66,
+      height = 66,
+      frame_count = inputs.frame_count or 2,
+      axially_symmetrical = false,
+      direction_count = 64,
+      shift = util.by_pixel(0, -27),
+      stripes =
+      {
+        {
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/gun-turret-shooting-1-mk2.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/gun-turret-shooting-2-mk2.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/gun-turret-shooting-3-mk2.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/gun-turret-shooting-4-mk2.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        }
+      },
+      hr_version =
+      {
+        width = 132,
+        height = 130,
+        frame_count = inputs.frame_count and inputs.frame_count or 2,
+        axially_symmetrical = false,
+        direction_count = 64,
+        shift = util.by_pixel(0, -27.5),
+        stripes =
+        {
+          {
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/hr-gun-turret-shooting-1-mk2.png",
+            width_in_frames = inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/hr-gun-turret-shooting-2-mk2.png",
+            width_in_frames = inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/hr-gun-turret-shooting-3-mk2.png",
+            width_in_frames = inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/hr-gun-turret-shooting-4-mk2.png",
+            width_in_frames = inputs.frame_count or 2,
+            height_in_frames = 16
+          }
+        },
+        scale = 0.5
+      }
+    },
+    {
+      flags = { "mask" },
+      line_length = inputs.frame_count or 2,
+      width = 30,
+      height = 28,
+      frame_count = inputs.frame_count or 2,
+      axially_symmetrical = false,
+      direction_count = 64,
+      shift = util.by_pixel(0, -32),
+      apply_runtime_tint = true,
+      stripes =
+      {
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-mask-1.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-mask-2.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-mask-3.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-mask-4.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        }
+      },
+      hr_version =
+      {
+        flags = { "mask" },
+        line_length = inputs.frame_count or 2,
+        width = 58,
+        height = 54,
+        frame_count = inputs.frame_count or 2,
+        axially_symmetrical = false,
+        direction_count = 64,
+        shift = util.by_pixel(0, -32.5),
+        apply_runtime_tint = true,
+        stripes =
+        {
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-mask-1.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-mask-2.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-mask-3.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-mask-4.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          }
+        },
+        scale = 0.5
+      }
+    },
+    {
+      width = 126,
+      height = 62,
+      frame_count = inputs.frame_count and inputs.frame_count or 2,
+      axially_symmetrical = false,
+      direction_count = 64,
+      shift = util.by_pixel(23, 2),
+      draw_as_shadow = true,
+      stripes =
+      {
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-shadow-1.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-shadow-2.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-shadow-3.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        },
+        {
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-shooting-shadow-4.png",
+          width_in_frames = inputs.frame_count or 2,
+          height_in_frames = 16
+        }
+      },
+      hr_version =
+      {
+        width = 250,
+        height = 124,
+        frame_count = inputs.frame_count and inputs.frame_count or 2,
+        axially_symmetrical = false,
+        direction_count = 64,
+        shift = util.by_pixel(22, 2.5),
+        draw_as_shadow = true,
+        stripes =
+        {
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-shadow-1.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-shadow-2.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-shadow-3.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          },
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-shooting-shadow-4.png",
+            width_in_frames = inputs.frame_count and inputs.frame_count or 2,
+            height_in_frames = 16
+          }
+        },
+        scale = 0.5
+      }
+    }
+  }
+}
+end
 
--- function gun_turret_extension_shadow(inputs)
--- return
--- {
---   filename = "__base__/graphics/entity/gun-turret/gun-turret-gun-extension-shadow.png",
---   width = 89,
---   height = 49,
---   direction_count = 4,
---   frame_count = inputs.frame_count and inputs.frame_count or 5,
---   line_length = inputs.line_length and inputs.line_length or 0,
---   run_mode = inputs.run_mode and inputs.run_mode or "forward",
---   shift = {1.26563, 0.015625},
---   axially_symmetrical = false,
---   draw_as_shadow = true
--- }
--- end
+function laser_turret_mk2_extension(inputs)
+return
+{
+  filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/laser-turret-raising-mk2.png",
+  priority = "medium",
+  width = 66,
+  height = 64,
+  frame_count = inputs.frame_count and inputs.frame_count or 15,
+  line_length = inputs.line_length and inputs.line_length or 0,
+  run_mode = inputs.run_mode and inputs.run_mode or "forward",
+  axially_symmetrical = false,
+  direction_count = 4,
+  shift = util.by_pixel(0, -32),
+  hr_version =
+  {
+    filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-raising-mk2.png",
+    priority = "medium",
+    width = 130,
+    height = 126,
+    frame_count = inputs.frame_count and inputs.frame_count or 15,
+    line_length = inputs.line_length and inputs.line_length or 0,
+    run_mode = inputs.run_mode and inputs.run_mode or "forward",
+    axially_symmetrical = false,
+    direction_count = 4,
+    shift = util.by_pixel(0, -32.5),
+    scale = 0.5
+  }
+}
+end
 
--- function gun_turret_attack(inputs)
--- return
--- {
---   layers =
---   {
---     {
---       width = 66,
---       height = 64,
---       frame_count = inputs.frame_count and inputs.frame_count or 2,
---       axially_symmetrical = false,
---       direction_count = 64,
---       shift = {0.0625, -0.875},
---       stripes =
---       {
---         {
---           filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-1.png",
---           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
---           height_in_frames = 32,
---         },
---         {
---           filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-2.png",
---           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
---           height_in_frames = 32,
---         }
---       }
---     },
---     {
---       filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-gun-mask.png",
---       line_length = inputs.frame_count and inputs.frame_count or 2,
---       width = 29,
---       height = 27,
---       frame_count = inputs.frame_count and inputs.frame_count or 2,
---       axially_symmetrical = false,
---       direction_count = 64,
---       shift = {0.078125, -1.01563},
---       apply_runtime_tint = true
---     },
---     {
---       width = 91,
---       height = 50,
---       frame_count = inputs.frame_count and inputs.frame_count or 2,
---       axially_symmetrical = false,
---       direction_count = 64,
---       shift = {1.29688, 0},
---       draw_as_shadow = true,
---       stripes =
---       {
---         {
---           filename = "__base__/graphics/entity/gun-turret/gun-turret-gun-shadow-1.png",
---           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
---           height_in_frames = 32,
---         },
---         {
---           filename = "__base__/graphics/entity/gun-turret/gun-turret-gun-shadow-2.png",
---           width_in_frames = inputs.frame_count and inputs.frame_count or 2,
---           height_in_frames = 32,
---         }
---       }
---     }
---   }
--- }
--- end
-
--- function laser_turret_extension(inputs)
--- return
--- {
---   filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-start.png",
---   priority = "medium",
---   width = 66,
---   height = 67,
---   frame_count = inputs.frame_count and inputs.frame_count or 15,
---   line_length = inputs.line_length and inputs.line_length or 0,
---   run_mode = inputs.run_mode and inputs.run_mode or "forward",
---   axially_symmetrical = false,
---   direction_count = 4,
---   shift = {0.0625, -0.984375}
--- }
--- end
-
--- function laser_turret_extension_shadow(inputs)
--- return
--- {
---   filename = "__base__/graphics/entity/laser-turret/laser-turret-gun-start-shadow.png",
---   width = 92,
---   height = 50,
---   frame_count = inputs.frame_count and inputs.frame_count or 15,
---   line_length = inputs.line_length and inputs.line_length or 0,
---   run_mode = inputs.run_mode and inputs.run_mode or "forward",
---   axially_symmetrical = false,
---   direction_count = 4,
---   draw_as_shadow = true,
---   shift = {1.46875, 0},
--- }
--- end
-
--- function laser_turret_extension_mask(inputs)
--- return
--- {
---   filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-gun-start-mask.png",
---   width = 51,
---   height = 47,
---   frame_count = inputs.frame_count and inputs.frame_count or 15,
---   line_length = inputs.line_length and inputs.line_length or 0,
---   run_mode = inputs.run_mode and inputs.run_mode or "forward",
---   axially_symmetrical = false,
---   apply_runtime_tint = false,
---   direction_count = 4,
---   shift = {0.078125, -1.26563},
--- }
--- end
+function laser_turret_mk2_shooting()
+return
+{
+  filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/laser-turret-shooting-mk2.png",
+  line_length = 8,
+  width = 64,
+  height = 60,
+  frame_count = 1,
+  direction_count = 64,
+  shift = util.by_pixel(0, -35),
+  hr_version =
+  {
+    filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-shooting-mk2.png",
+    line_length = 8,
+    width = 126,
+    height = 120,
+    frame_count = 1,
+    direction_count = 64,
+    shift = util.by_pixel(0, -35),
+    scale = 0.5
+  }
+}
+end
 
 data:extend(
 {
   {
     type = "ammo-turret",
     name = "gun-turret-mk2",
-    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/gun-turret.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/gun-turret-mk2.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "gun-turret-mk2"},
@@ -170,9 +304,9 @@ data:extend(
     corpse = "medium-remnants",
     collision_box = {{-0.7, -0.7 }, {0.7, 0.7}},
     selection_box = {{-1, -1 }, {1, 1}},
-    rotation_speed = 0.015,
-    preparing_speed = 0.08,
-    folding_speed = 0.08,
+    rotation_speed = 0.010,
+    preparing_speed = 0.06,
+    folding_speed = 0.06,
     dying_explosion = "medium-explosion",
     fast_replaceable_group = "turret",
     inventory_size = 2,
@@ -182,7 +316,7 @@ data:extend(
     {
       layers =
       {
-        gun_turret_extension{frame_count=1, line_length = 1},
+        gun_turret_mk2_extension{frame_count=1, line_length = 1},
         gun_turret_extension_mask{frame_count=1, line_length = 1},
         gun_turret_extension_shadow{frame_count=1, line_length = 1}
       }
@@ -191,18 +325,18 @@ data:extend(
     {
       layers =
       {
-        gun_turret_extension{},
+        gun_turret_mk2_extension{},
         gun_turret_extension_mask{},
         gun_turret_extension_shadow{}
       }
     },
-    prepared_animation = gun_turret_attack{frame_count=1},
-    attacking_animation = gun_turret_attack{},
+    prepared_animation = gun_turret_mk2_attack{frame_count=1},
+    attacking_animation = gun_turret_mk2_attack{},
     folding_animation = 
     { 
       layers = 
       { 
-        gun_turret_extension{run_mode = "backward"},
+        gun_turret_mk2_extension{run_mode = "backward"},
         gun_turret_extension_mask{run_mode = "backward"},
         gun_turret_extension_shadow{run_mode = "backward"}
       }
@@ -212,27 +346,78 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-base.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/gun-turret-base-mk2.png",
           priority = "high",
-          width = 90,
-          height = 75,
+          width = 76,
+          height = 60,
           axially_symmetrical = false,
           direction_count = 1,
           frame_count = 1,
-          shift = {0.0625, -0.046875},
+          shift = util.by_pixel(1, -1),
+          hr_version =
+          {
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret-mk2/hr-gun-turret-base-mk2.png",
+            priority = "high",
+            width = 150,
+            height = 118,
+            axially_symmetrical = false,
+            direction_count = 1,
+            frame_count = 1,
+            shift = util.by_pixel(0.5, -1),
+            scale = 0.5
+          }
         },
+        --{
+        --  filename = "__base__/graphics/entity/gun-turret/gun-turret-base-shadow.png",
+        --  line_length = 1,
+        --  width = 78,
+        --  height = 62,
+        --  axially_symmetrical = false,
+        --  direction_count = 1,
+        --  frame_count = 1,
+        --  shift = util.by_pixel(5, 3),
+        --  draw_as_shadow = true,
+        --  hr_version =
+        --  {
+        --    filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-base-shadow.png",
+        --    line_length = 1,
+        --    width = 154,
+        --    height = 122,
+        --    axially_symmetrical = false,
+        --    direction_count = 1,
+        --    frame_count = 1,
+        --    shift = util.by_pixel(5, 2.5),
+        --    draw_as_shadow = true,
+        --    scale = 0.5
+        --  }
+        --},
         {
-          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/gun-turret/gun-turret-base-mask.png",
+          filename = "__base__/graphics/entity/gun-turret/gun-turret-base-mask.png",
+          flags = { "mask" },
           line_length = 1,
-          width = 52,
-          height = 47,
-          frame_count = 1,
+          width = 62,
+          height = 52,
           axially_symmetrical = false,
           direction_count = 1,
           frame_count = 1,
-          shift = {0.0625, -0.234375},
-          apply_runtime_tint = true
+          shift = util.by_pixel(0, -4),
+          apply_runtime_tint = true,
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/gun-turret/hr-gun-turret-base-mask.png",
+            flags = { "mask" },
+            line_length = 1,
+            width = 122,
+            height = 102,
+            axially_symmetrical = false,
+            direction_count = 1,
+            frame_count = 1,
+            shift = util.by_pixel(0, -4.5),
+            apply_runtime_tint = true,
+            scale = 0.5
+          }
         }
+
       }
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -242,7 +427,7 @@ data:extend(
       ammo_category = "bullet",
       cooldown = 3,
       projectile_creation_distance = 1.39375,
-      projectile_center = {0.0625, -0.0875}, -- same as gun_turret_attack shift
+      projectile_center = {0, -0.0875}, -- same as gun_turret_attack shift
       damage_modifier = 2, --0
       shell_particle =
       {
@@ -250,7 +435,7 @@ data:extend(
         direction_deviation = 0.1,
         speed = 0.1,
         speed_deviation = 0.03,
-        center = {0, 0},
+        center = {-0.0625, 0},
         creation_distance = -1.925,
         starting_frame_speed = 0.2,
         starting_frame_speed_deviation = 0.1
@@ -261,12 +446,10 @@ data:extend(
 
     call_for_help_radius = 40
   },
-  
-  
   {
     type = "electric-turret",
     name = "laser-turret-mk2",
-    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/laser-turret.png",
+    icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/laser-turret-mk2.png",
     icon_size = 32,
     flags = { "placeable-player", "placeable-enemy", "player-creation"},
     minable = { mining_time = 0.5, result = "laser-turret-mk2" },
@@ -275,10 +458,10 @@ data:extend(
     collision_box = {{ -0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{ -1, -1}, {1, 1}},
     rotation_speed = 0.01,
-    preparing_speed = 0.05,
+    preparing_speed = 0.03,
     dying_explosion = "medium-explosion",
     fast_replaceable_group = "turret",
-    folding_speed = 0.05,
+    folding_speed = 0.03,
     energy_source =
     {
       type = "electric",
@@ -291,7 +474,7 @@ data:extend(
     {
       layers =
       {
-        laser_turret_extension{frame_count=1, line_length = 1},
+        laser_turret_mk2_extension{frame_count=1, line_length = 1},
         laser_turret_extension_shadow{frame_count=1, line_length=1},
         laser_turret_extension_mask{frame_count=1, line_length=1}
       }
@@ -300,7 +483,7 @@ data:extend(
     {
       layers =
       {
-        laser_turret_extension{},
+        laser_turret_mk2_extension{},
         laser_turret_extension_shadow{},
         laser_turret_extension_mask{}
       }
@@ -309,17 +492,18 @@ data:extend(
     {
       layers =
       {
-        laser_turret_shooting(),
+        laser_turret_mk2_shooting(),
         laser_turret_shooting_shadow(),
         laser_turret_shooting_mask()
       }
     },
+    --attacking_speed = 0.1,
     energy_glow_animation = laser_turret_shooting_glow(),
-    folding_animation = 
+    folding_animation =
     {
       layers =
       {
-        laser_turret_extension{run_mode = "backward"},
+        laser_turret_mk2_extension{run_mode = "backward"},
         laser_turret_extension_shadow{run_mode = "backward"},
         laser_turret_extension_mask{run_mode = "backward"}
       }
@@ -329,60 +513,80 @@ data:extend(
       layers =
       {
         {
-          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-base.png",
+          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/laser-turret-base-mk2.png",
           priority = "high",
-          width = 98,
-          height = 82,
-          axially_symmetrical = false,
+          width = 70,
+          height = 52,
           direction_count = 1,
           frame_count = 1,
-          shift = { 0.109375, 0.03125 }
+          shift = util.by_pixel(0, 2),
+          hr_version =
+          {
+            filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-base-mk2.png",
+            priority = "high",
+            width = 138,
+            height = 104,
+            direction_count = 1,
+            frame_count = 1,
+            shift = util.by_pixel(-0.5, 2),
+            scale = 0.5
+          }
         },
         {
-          filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret/laser-turret-base-mask.png",
+          filename = "__base__/graphics/entity/laser-turret/laser-turret-base-shadow.png",
+          flags = { "mask" },
           line_length = 1,
-          width = 54,
-          height = 46,
-          frame_count = 1,
-          axially_symmetrical = false,
-          apply_runtime_tint = true,
+          width = 66,
+          height = 42,
+          draw_as_shadow = true,
           direction_count = 1,
-          shift = {0.046875, -0.109375},
-        },
+          frame_count = 1,
+          shift = util.by_pixel(6, 3),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/laser-turret/hr-laser-turret-base-shadow.png",
+            flags = { "mask" },
+            line_length = 1,
+            width = 132,
+            height = 82,
+            draw_as_shadow = true,
+            direction_count = 1,
+            frame_count = 1,
+            shift = util.by_pixel(6, 3),
+            scale = 0.5
+          }
+        }
       }
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
     attack_parameters =
     {
-      type = "projectile",
-      ammo_category = "electric",
-      cooldown = 10,
-      projectile_center = {0, -0.2},
-      projectile_creation_distance = 1.4,
-      range = 48,
-      damage_modifier = 8,
+      type = "beam",
+      cooldown = 20,
+      range = 24,
+      source_direction_count = 64,
+      source_offset = {0, -3.423489 / 4},
+      damage_modifier = 2,
       ammo_type =
       {
-        type = "projectile",
         category = "laser-turret",
-        energy_consumption = "1000kJ",
+        energy_consumption = "800kJ",
         action =
         {
+          type = "direct",
+          action_delivery =
           {
-            type = "direct",
-            action_delivery =
-            {
-              {
-                type = "projectile",
-                projectile = "laser",
-                starting_speed = 0.50
-              }
-            }
+            type = "beam",
+            beam = "laser-beam",
+            max_length = 24,
+            duration = 20,
+            source_offset = {0, -1.31439 }
           }
         }
-      },
-      sound = make_laser_sounds()
+      }
     },
+
     call_for_help_radius = 40
   },
   
