@@ -564,7 +564,7 @@ data:extend(
     {
       type = "beam",
       cooldown = 10,
-      range = 48,
+      range = 36,
       source_direction_count = 64,
       source_offset = {0, -3.423489 / 4},
       damage_modifier = 4,
