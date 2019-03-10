@@ -564,10 +564,10 @@ data:extend(
     {
       type = "beam",
       cooldown = 20,
-      range = 24,
+      range = 48,
       source_direction_count = 64,
       source_offset = {0, -3.423489 / 4},
-      damage_modifier = 2,
+      damage_modifier = 8,
       ammo_type =
       {
         category = "laser-turret",
