@@ -458,10 +458,10 @@ data:extend(
     collision_box = {{ -0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{ -1, -1}, {1, 1}},
     rotation_speed = 0.01,
-    preparing_speed = 0.03,
+    preparing_speed = 0.05,
     dying_explosion = "medium-explosion",
     fast_replaceable_group = "turret",
-    folding_speed = 0.03,
+    folding_speed = 0.05,
     energy_source =
     {
       type = "electric",
@@ -563,11 +563,11 @@ data:extend(
     attack_parameters =
     {
       type = "beam",
-      cooldown = 20,
+      cooldown = 10,
       range = 48,
       source_direction_count = 64,
       source_offset = {0, -3.423489 / 4},
-      damage_modifier = 8,
+      damage_modifier = 4,
       ammo_type =
       {
         category = "laser-turret",
