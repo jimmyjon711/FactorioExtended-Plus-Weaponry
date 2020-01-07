@@ -28,3 +28,8 @@ Version: 0.2.2
 Date: 03. 10. 2019
   Changes :
     - Reverting laser turret range and damage modifier back
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 01. 07. 2020
+  Changes :
+    - Fix mk2 Laser turrent "max_length" to 30 to match "range" of 36
