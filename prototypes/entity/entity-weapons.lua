@@ -579,7 +579,7 @@ data:extend(
           {
             type = "beam",
             beam = "laser-beam",
-            max_length = 24,
+            max_length = 36,
             duration = 20,
             source_offset = {0, -1.31439 }
           }
