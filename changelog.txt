@@ -1,30 +1,37 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.3
-Date: 03. 30. 2018
+Version: 0.3.0
+Date: 30. 12. 2019
   Changes :
-    - Re-balancing science
+    - Added thumbnail
+    - Reordered changelog.txt
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.4
-Date: 04. 30. 2018
+Version: 0.2.2
+Date: 03. 10. 2019
   Changes :
-    - Making MK2 Turrets fast replaceable with vanilla turrets and laser turrets
----------------------------------------------------------------------------------------------------
-Version: 0.1.5
-Date: 08. 25. 2018
-  Changes :
-    - Moved repair pack and technology locale to core since that is where the entity is at.
----------------------------------------------------------------------------------------------------
-Version: 0.2.0
-Date: 03. 01. 2019
-  Changes :
-    - Updating to work with 0.17
+    - Reverting laser turret range and damage modifier back
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 03. 03. 2019
   Changes :
     - Updating graphics and properties
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.2
-Date: 03. 10. 2019
+Version: 0.2.0
+Date: 03. 01. 2019
   Changes :
-    - Reverting laser turret range and damage modifier back
+    - Updating to work with 0.17
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 08. 25. 2018
+  Changes :
+    - Moved repair pack and technology locale to core since that is where the entity is at.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 04. 30. 2018
+  Changes :
+    - Making MK2 Turrets fast replaceable with vanilla turrets and laser turrets
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 03. 30. 2018
+  Changes :
+    - Re-balancing science
+---------------------------------------------------------------------------------------------------
