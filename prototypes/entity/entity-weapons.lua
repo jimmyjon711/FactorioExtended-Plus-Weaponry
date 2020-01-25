@@ -312,7 +312,7 @@ data:extend(
     inventory_size = 2,
     automated_ammo_count = 10,
     attacking_speed = 1, --0.5
-    folded_animation = 
+    folded_animation =
     {
       layers =
       {
@@ -321,7 +321,7 @@ data:extend(
         gun_turret_extension_shadow{frame_count=1, line_length = 1}
       }
     },
-    preparing_animation = 
+    preparing_animation =
     {
       layers =
       {
@@ -332,10 +332,10 @@ data:extend(
     },
     prepared_animation = gun_turret_mk2_attack{frame_count=1},
     attacking_animation = gun_turret_mk2_attack{},
-    folding_animation = 
-    { 
-      layers = 
-      { 
+    folding_animation =
+    {
+      layers =
+      {
         gun_turret_mk2_extension{run_mode = "backward"},
         gun_turret_extension_mask{run_mode = "backward"},
         gun_turret_extension_shadow{run_mode = "backward"}
@@ -428,7 +428,7 @@ data:extend(
       cooldown = 3,
       projectile_creation_distance = 1.39375,
       projectile_center = {0, -0.0875}, -- same as gun_turret_attack shift
-      damage_modifier = 2, --0
+      damage_modifier = 1.5, --0
       shell_particle =
       {
         name = "shell-particle",
@@ -589,8 +589,8 @@ data:extend(
 
     call_for_help_radius = 40
   },
-  
-  
+
+
   {
     type = "wall",
     name = "iron-wall",
@@ -2592,8 +2592,8 @@ data:extend(
     circuit_wire_max_distance = default_circuit_wire_max_distance,
     default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"}
   },
-  
-  
+
+
   {
     type = "gate",
     name = "iron-gate",
