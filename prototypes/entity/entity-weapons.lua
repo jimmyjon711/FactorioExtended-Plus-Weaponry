@@ -441,7 +441,24 @@ data:extend(
         starting_frame_speed_deviation = 0.1
       },
       range = 25,
-      sound = make_heavy_gunshot_sounds(),
+      sound = {
+        {
+          filename = "__base__/sound/fight/heavy-gunshot-1.ogg",
+          volume = 0.45
+        },
+        {
+          filename = "__base__/sound/fight/heavy-gunshot-2.ogg",
+          volume = 0.45
+        },
+        {
+          filename = "__base__/sound/fight/heavy-gunshot-3.ogg",
+          volume = 0.45
+        },
+        {
+          filename = "__base__/sound/fight/heavy-gunshot-4.ogg",
+          volume = 0.45
+        }
+      },
     },
 
     call_for_help_radius = 40
