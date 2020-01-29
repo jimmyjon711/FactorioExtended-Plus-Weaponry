@@ -3,6 +3,7 @@ Version: 0.4.1
 Date: 28. 01. 2020
   Changes :
     - Fixed sounds for mk2 turret based on changed from 0.18.2
+    - General code refactor
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 21. 01. 2020
