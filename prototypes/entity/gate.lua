@@ -27,6 +27,7 @@ igate.name = "iron-gate"
 igate.minable.result = igate.name
 igate.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-gate.png"
 igate.icon_size = 32
+igate.icon_mipmaps = nil
 
 igate.max_health = 700 -- 350
 igate.repair_speed_modifier = 2.5 -- 2
@@ -46,6 +47,7 @@ sgate.name = "steel-gate"
 sgate.minable.result = sgate.name
 sgate.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-gate.png"
 sgate.icon_size = 32
+sgate.icon_mipmaps = nil
 
 sgate.max_health = 1400 -- 350
 sgate.repair_speed_modifier = 3 -- 2
@@ -66,6 +68,7 @@ tgate.name = "titanium-gate"
 tgate.minable.result = tgate.name
 tgate.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-gate.png"
 tgate.icon_size = 32
+tgate.icon_mipmaps = nil
 
 tgate.max_health = 1400 -- 350
 tgate.repair_speed_modifier = 3.5 -- 2
