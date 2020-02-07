@@ -31,6 +31,7 @@ iwall.name = "iron-wall"
 iwall.minable.result = iwall.name
 iwall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-wall.png"
 iwall.icon_size = 32
+iwall.icon_mipmaps = nil
 
 iwall.max_health = 700 -- 350
 iwall.repair_speed_modifier = 2.5 -- 2
@@ -50,6 +51,7 @@ swall.name = "steel-wall"
 swall.minable.result = swall.name
 swall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-wall.png"
 swall.icon_size = 32
+swall.icon_mipmaps = nil
 
 swall.max_health = 1400 -- 350
 swall.repair_speed_modifier = 3 -- 2
@@ -70,6 +72,7 @@ twall.name = "titanium-wall"
 twall.minable.result = twall.name
 twall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-wall.png"
 twall.icon_size = 32
+twall.icon_mipmaps = nil
 
 twall.max_health = 1400 -- 350
 twall.repair_speed_modifier = 3.5 -- 2
