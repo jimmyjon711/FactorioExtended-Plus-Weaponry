@@ -47,7 +47,7 @@ wall_pictures(iwall, iwall.name)
 -- Steel Wall
 local swall = table.deepcopy(data.raw["wall"]["stone-wall"])
 swall.name = "steel-wall"
-swall.minable.result = iwall.name
+swall.minable.result = swall.name
 swall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-wall.png"
 swall.icon_size = 32
 
@@ -67,7 +67,7 @@ wall_pictures(swall, swall.name)
 -- Titanium Wall
 local twall = table.deepcopy(data.raw["wall"]["stone-wall"])
 twall.name = "titanium-wall"
-twall.minable.result = iwall.name
+twall.minable.result = twall.name
 twall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-wall.png"
 twall.icon_size = 32
 
