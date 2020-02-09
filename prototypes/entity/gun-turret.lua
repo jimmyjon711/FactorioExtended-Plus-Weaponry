@@ -1,10 +1,13 @@
-data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group = "turret"
+if not data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group then
+    data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group = "turret"
+end
 
 local turret2 = table.deepcopy(data.raw["ammo-turret"]["gun-turret"])
 turret2.name = "gun-turret-mk2"
 turret2.minable.result = turret2.name
 turret2.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/gun-turret-mk2.png"
 turret2.icon_size = 32
+turret2.icon_mipmaps = nil
 
 turret2.max_health = 800 -- 400
 turret2.attacking_speed = 1 -- 0.5

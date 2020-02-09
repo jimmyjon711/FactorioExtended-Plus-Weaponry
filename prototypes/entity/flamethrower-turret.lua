@@ -1,6 +1,8 @@
 local Constant = require("constant")
 
-data.raw["fluid-turret"]["flamethrower-turret"].fast_replaceable_group = "flamethrower-turret"
+if not data.raw["fluid-turret"]["flamethrower-turret"].fast_replaceable_group then
+    data.raw["fluid-turret"]["flamethrower-turret"].fast_replaceable_group = "flamethrower-turret"
+end
 
 local turret2 = table.deepcopy(data.raw["fluid-turret"]["flamethrower-turret"])
 turret2.name = "flamethrower-turret-mk2"
