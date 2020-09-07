@@ -1,6 +1,6 @@
 require("prototypes.entity.__init__")
+require("prototypes.item.items")
 require("prototypes.item.item-weapons")
-require("prototypes.item.flamethrower-turret-mk2")
 require("prototypes.recipe.recipe-weapons")
 require("prototypes.recipe.flamethrower-turret-mk2")
 require("prototypes.technology.technology-weapons")
