@@ -6,8 +6,8 @@ local turret2 = table.deepcopy(data.raw["electric-turret"]["laser-turret"])
 turret2.name = "laser-turret-mk2"
 turret2.minable.result = turret2.name
 turret2.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/laser-turret-mk2.png"
-turret2.icon_size = 32
-turret2.icon_mipmaps = nil
+turret2.icon_size = 64
+turret2.icon_mipmaps = 4
 
 turret2.max_health = 2000 -- 1000
 turret2.energy_source.buffer_capacity = "1600kJ" -- 801kJ

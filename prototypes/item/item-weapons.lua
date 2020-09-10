@@ -1,25 +1,5 @@
 data:extend(
     {
-        -- {
-        --     type = "item",
-        --     name = "gun-turret-mk2",
-        --     icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/gun-turret-mk2.png",
-        --     icon_size = 32,
-        --     subgroup = "fb-weapons",
-        --     order = "b-a",
-        --     place_result = "gun-turret-mk2",
-        --     stack_size = 50
-        -- },
-        -- {
-        --     type = "item",
-        --     name = "laser-turret-mk2",
-        --     icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/laser-turret-mk2.png",
-        --     icon_size = 32,
-        --     subgroup = "fb-weapons",
-        --     order = "b-b",
-        --     place_result = "laser-turret-mk2",
-        --     stack_size = 50
-        -- },
         {
             type = "ammo",
             name = "shattering-bullet-magazine",
