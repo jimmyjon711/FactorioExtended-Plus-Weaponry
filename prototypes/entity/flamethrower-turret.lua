@@ -1,9 +1,5 @@
 local Constant = require("constant")
 
-if not data.raw["fluid-turret"]["flamethrower-turret"].fast_replaceable_group then
-    data.raw["fluid-turret"]["flamethrower-turret"].fast_replaceable_group = "flamethrower-turret"
-end
-
 local turret2 = table.deepcopy(data.raw["fluid-turret"]["flamethrower-turret"])
 turret2.name = "flamethrower-turret-mk2"
 turret2.attack_parameters.damage_modifier = 1.5
@@ -21,7 +17,5 @@ for _, direction in pairs({"north", "east", "south", "west"}) do
     turret2.fluid_box.pipe_covers[direction].layers[1].tint = Constant.green_tint
     turret2.fluid_box.pipe_covers[direction].layers[1].hr_version.tint = Constant.green_tint
 end
-
-data.raw["fluid-turret"]["flamethrower-turret"].next_upgrade = "flamethrower-turret-mk2"
 
 data:extend({turret2})

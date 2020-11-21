@@ -1,7 +1,3 @@
-if not data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group then
-    data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group = "turret"
-end
-
 local turret2 = table.deepcopy(data.raw["ammo-turret"]["gun-turret"])
 turret2.name = "gun-turret-mk2"
 turret2.minable.result = turret2.name
