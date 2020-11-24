@@ -3,9 +3,9 @@ data:extend(
         {
             type = "technology",
             name = "turrets-2",
-            icon = "__base__/graphics/technology/laser-turrets.png",
-            icon_size = 128,
-            prerequisites = {"laser-turrets", "titanium-processing"},
+            icon = "__base__/graphics/technology/laser-turret.png",
+            icon_size = 256,
+            prerequisites = {"laser-turret", "titanium-processing"},
             effects = {
                 {
                     type = "unlock-recipe",
@@ -34,15 +34,15 @@ data:extend(
         {
             type = "technology",
             name = "laser-turrets-2",
-            icon_size = 128,
-            icon = "__base__/graphics/technology/laser-turrets.png",
+            icon_size = 256,
+            icon = "__base__/graphics/technology/laser-turret.png",
             effects = {
                 {
                     type = "unlock-recipe",
                     recipe = "laser-turret-mk2"
                 }
             },
-            prerequisites = {"laser-turrets", "titanium-processing", "advanced-electronics-2", "battery-equipment"},
+            prerequisites = {"laser-turret", "titanium-processing", "advanced-electronics-2", "battery-equipment"},
             unit = {
                 count = 400,
                 ingredients = {
@@ -58,9 +58,9 @@ data:extend(
         {
             type = "technology",
             name = "iron-walls",
-            icon = "__base__/graphics/technology/stone-walls.png",
-            icon_size = 128,
-            prerequisites = {"stone-walls", "gates"},
+            icon = "__base__/graphics/technology/stone-wall.png",
+            icon_size = 256,
+            prerequisites = {"stone-wall", "gate"},
             effects = {
                 {
                     type = "unlock-recipe",
@@ -85,8 +85,8 @@ data:extend(
         {
             type = "technology",
             name = "steel-walls",
-            icon = "__base__/graphics/technology/stone-walls.png",
-            icon_size = 128,
+            icon = "__base__/graphics/technology/stone-wall.png",
+            icon_size = 256,
             prerequisites = {"iron-walls", "steel-processing"},
             effects = {
                 {
@@ -113,8 +113,8 @@ data:extend(
         {
             type = "technology",
             name = "titanium-walls",
-            icon = "__base__/graphics/technology/stone-walls.png",
-            icon_size = 128,
+            icon = "__base__/graphics/technology/stone-wall.png",
+            icon_size = 256,
             prerequisites = {"steel-walls", "titanium-processing"},
             effects = {
                 {
