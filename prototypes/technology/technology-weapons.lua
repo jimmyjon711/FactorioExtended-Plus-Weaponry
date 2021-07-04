@@ -5,7 +5,7 @@ data:extend(
             name = "turrets-2",
             icon = "__base__/graphics/technology/laser-turret.png",
             icon_size = 256,
-            prerequisites = {"laser-turret", "titanium-processing"},
+            prerequisites = {"gun-turret", "military-science-pack", "titanium-processing"},
             effects = {
                 {
                     type = "unlock-recipe",
@@ -60,7 +60,7 @@ data:extend(
             name = "iron-walls",
             icon = "__base__/graphics/technology/stone-wall.png",
             icon_size = 256,
-            prerequisites = {"stone-wall", "gate"},
+            prerequisites = {"stone-wall", "gate", "military-science-pack"},
             effects = {
                 {
                     type = "unlock-recipe",
@@ -87,7 +87,7 @@ data:extend(
             name = "steel-walls",
             icon = "__base__/graphics/technology/stone-wall.png",
             icon_size = 256,
-            prerequisites = {"iron-walls", "steel-processing"},
+            prerequisites = {"iron-walls", "steel-processing", "chemical-science-pack"},
             effects = {
                 {
                     type = "unlock-recipe",
@@ -115,7 +115,7 @@ data:extend(
             name = "titanium-walls",
             icon = "__base__/graphics/technology/stone-wall.png",
             icon_size = 256,
-            prerequisites = {"steel-walls", "titanium-processing"},
+            prerequisites = {"steel-walls", "titanium-processing", "utility-science-pack"},
             effects = {
                 {
                     type = "unlock-recipe",
@@ -133,7 +133,7 @@ data:extend(
                     {"logistic-science-pack", 1},
                     {"chemical-science-pack", 1},
                     {"military-science-pack", 1},
-                    {"production-science-pack", 1}
+                    {"utility-science-pack", 1}
                 },
                 time = 45
             },
